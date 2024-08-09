@@ -3,7 +3,7 @@ import "./Card.css";
 // eslint-disable-next-line react/prop-types
 const Card = ({ data }) => {
   // eslint-disable-next-line react/prop-types
-  const { icon, backgroundColor } = data;
+  const { title, amount, growth, icon, backgroundColor } = data;
 
   return (
     <div className="card" style={{ backgroundColor }}>
@@ -13,10 +13,10 @@ const Card = ({ data }) => {
         </div>
       </div>
       <div className="card-body">
-        <h2 className="amount">R$50,000</h2>
+        <h2 className="amount">R${amount}</h2>
         <div className="growth">
-          <p>Total de Vendas</p>
-          <span>+20%</span>
+          <p>{title}</p>
+          <span>{growth}</span>
         </div>
       </div>
     </div>
