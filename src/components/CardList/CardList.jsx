@@ -9,28 +9,28 @@ const CardList = () => {
       amount: "R$30,500",
       growth: "+39%",
       icon: <IoCart />,
-      backgroundColor: "#FFE7E7",
+      backgroundColor: "#A7BCEB",
     },
     expenses: {
       title: "Total de Gastos",
       amount: "R$10,250",
       growth: "-13%",
       icon: <IoCash />,
-      backgroundColor: "#CAA6A6",
+      backgroundColor: "#E3D3F5",
     },
     users: {
       title: "Total de Usuários",
       amount: "5,143",
       growth: "+4%",
       icon: <IoPeople />,
-      backgroundColor: "#B47B84",
+      backgroundColor: "#A7BCEB",
     },
     newUsers: {
       title: "Novos Usuários",
       amount: "200",
       growth: "+60%",
       icon: <IoPeople />,
-      backgroundColor: "#944E63",
+      backgroundColor: "#E3D3F5",
     },
   };
 
