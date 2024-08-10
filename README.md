@@ -23,3 +23,21 @@ Os quatro cards centrais oferecem informações destacadas de forma clara e aces
 ![Tela Principal Mobile](https://github.com/user-attachments/assets/1c217f45-ea3e-47a1-89ce-f51e8dd4b055)
 
 ![Sidebar Mobile](https://github.com/user-attachments/assets/e48d9a2d-5000-4baa-9f33-86febc3f9c38)
+
+# Instalação
+
+1. Clone o repositório
+
+```bash
+  git clone [link]
+```
+
+2. Instale as dependências
+```bash
+  npm install
+```
+
+3. Rode a aplicação
+```bash
+  npm run dev
+```
